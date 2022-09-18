@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryArlaEPRBioblioteca
 {
-    public partial class Form1 : Form
+    public partial class frmBiblioteca : Form
     {
-        public Form1()
+        public frmBiblioteca()
         {
             InitializeComponent();
         }
