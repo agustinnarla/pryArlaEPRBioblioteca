@@ -18,19 +18,32 @@ namespace pryArlaEPRBioblioteca
         {
             InitializeComponent();
         }
-
+        public string[,] matLibro = new string[20, 5];
+        public int contador = 0;
         private void cmdConsultar_Click(object sender, EventArgs e)
         {
 
             char separador = Convert.ToChar(",");
+            int i = 0;
         
             StreamReader srLibros = new StreamReader("./LIBRO.txt");
             
-            while (!srLibros.EndOfStream)
+            while (!srLibros.EndOfStream && i < 21 )
             {
                 string[] vecBiblioteca = srLibros.ReadLine().Split(separador);
-                grlLibros.Rows.Add(vecBiblioteca);
-            
+
+                matLibro[i, 0] = vecBiblioteca[0];
+                matLibro[i, 1] = vecBiblioteca[1];
+                matLibro[i, 2] = vecBiblioteca[2];
+                matLibro[i, 3] = vecBiblioteca[3];
+                matLibro[i, 4] = vecBiblioteca[4];
+
+                //StreamReader srEditorial = new StreamReader("./EDITORIAL.txt");
+                //while (!srEditorial.EndOfStream)
+                //{
+                //    string[] vecEditorial = srEditorial.ReadLine().Split(separador);
+                    
+                //}
             }
             srLibros.Close();
 
