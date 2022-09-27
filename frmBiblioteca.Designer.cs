@@ -66,7 +66,7 @@
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(9, 22);
+            this.lblCodigo.Location = new System.Drawing.Point(12, 18);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(43, 13);
             this.lblCodigo.TabIndex = 4;
@@ -75,7 +75,7 @@
             // lblNombre_Libro
             // 
             this.lblNombre_Libro.AutoSize = true;
-            this.lblNombre_Libro.Location = new System.Drawing.Point(9, 51);
+            this.lblNombre_Libro.Location = new System.Drawing.Point(12, 48);
             this.lblNombre_Libro.Name = "lblNombre_Libro";
             this.lblNombre_Libro.Size = new System.Drawing.Size(87, 13);
             this.lblNombre_Libro.TabIndex = 5;
@@ -84,7 +84,7 @@
             // lblCodigo_Autor
             // 
             this.lblCodigo_Autor.AutoSize = true;
-            this.lblCodigo_Autor.Location = new System.Drawing.Point(9, 80);
+            this.lblCodigo_Autor.Location = new System.Drawing.Point(12, 108);
             this.lblCodigo_Autor.Name = "lblCodigo_Autor";
             this.lblCodigo_Autor.Size = new System.Drawing.Size(85, 13);
             this.lblCodigo_Autor.TabIndex = 6;
@@ -93,7 +93,7 @@
             // lblNombre_Editorial
             // 
             this.lblNombre_Editorial.AutoSize = true;
-            this.lblNombre_Editorial.Location = new System.Drawing.Point(9, 109);
+            this.lblNombre_Editorial.Location = new System.Drawing.Point(12, 78);
             this.lblNombre_Editorial.Name = "lblNombre_Editorial";
             this.lblNombre_Editorial.Size = new System.Drawing.Size(110, 13);
             this.lblNombre_Editorial.TabIndex = 7;
@@ -102,7 +102,7 @@
             // lblNombre_Distribuidor
             // 
             this.lblNombre_Distribuidor.AutoSize = true;
-            this.lblNombre_Distribuidor.Location = new System.Drawing.Point(9, 138);
+            this.lblNombre_Distribuidor.Location = new System.Drawing.Point(12, 138);
             this.lblNombre_Distribuidor.Name = "lblNombre_Distribuidor";
             this.lblNombre_Distribuidor.Size = new System.Drawing.Size(116, 13);
             this.lblNombre_Distribuidor.TabIndex = 8;
@@ -126,7 +126,7 @@
             // 
             // txtCodigoAutor
             // 
-            this.txtCodigoAutor.Location = new System.Drawing.Point(149, 75);
+            this.txtCodigoAutor.Location = new System.Drawing.Point(150, 105);
             this.txtCodigoAutor.Name = "txtCodigoAutor";
             this.txtCodigoAutor.ReadOnly = true;
             this.txtCodigoAutor.Size = new System.Drawing.Size(74, 20);
@@ -134,7 +134,7 @@
             // 
             // txtNombreEdit
             // 
-            this.txtNombreEdit.Location = new System.Drawing.Point(149, 105);
+            this.txtNombreEdit.Location = new System.Drawing.Point(149, 75);
             this.txtNombreEdit.Name = "txtNombreEdit";
             this.txtNombreEdit.ReadOnly = true;
             this.txtNombreEdit.Size = new System.Drawing.Size(161, 20);

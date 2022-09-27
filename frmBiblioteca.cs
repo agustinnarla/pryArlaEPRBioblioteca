@@ -19,8 +19,10 @@ namespace pryArlaEPRBioblioteca
         {
             InitializeComponent();
         }
+        //Asignamos estructura y varaible 
         public Datos[,] matLibros = new Datos [21, 5];
         public int contador = 0;
+        
         public struct Datos
         {
             public int Codigo;
@@ -36,8 +38,10 @@ namespace pryArlaEPRBioblioteca
             char separador = Convert.ToChar(",");
             int i = 0;
 
+            //lectura
             StreamReader srLibros = new StreamReader("./LIBRO.txt");
 
+            
             while (!srLibros.EndOfStream && i < 21)
             {
                 string[] vecLibro = srLibros.ReadLine().Split(separador);
@@ -47,6 +51,7 @@ namespace pryArlaEPRBioblioteca
                     vecLibro[indice] = Regex.Replace(vecLibro[indice], @"\t", "");
                 }
 
+                //Asignamos
                 matLibros[i, 0].Codigo = Convert.ToInt32(vecLibro[0]);
                 matLibros[i, 1].Nombre_del_Libro = vecLibro[1];
                 matLibros[i, 2].Nombre_Editorial = vecLibro[2];
@@ -76,6 +81,7 @@ namespace pryArlaEPRBioblioteca
                 }
                 srEditorial.Close();
 
+                //lectura 
                 StreamReader srDistribuidora = new StreamReader("./DISTRIBUIDORA.txt");
 
                 while (!srDistribuidora.EndOfStream  )
@@ -102,6 +108,8 @@ namespace pryArlaEPRBioblioteca
             }
             srLibros.Close();
 
+
+            //asignacion 
             txtCodigo.Text = Convert.ToString(matLibros[0, 0].Codigo);
             txtNombreLibro.Text = matLibros[0, 1].Nombre_del_Libro;
             txtNombreEdit.Text = matLibros[0, 2].Nombre_Editorial;
@@ -115,6 +123,7 @@ namespace pryArlaEPRBioblioteca
 
         private void cmdAdelante_Click(object sender, EventArgs e)
         {
+            //aumente 1 
             contador++;
 
 
@@ -135,6 +144,7 @@ namespace pryArlaEPRBioblioteca
 
         private void cmdAtras_Click(object sender, EventArgs e)
         {
+            //restamos 
             contador--;
 
             if (contador >= 0)
