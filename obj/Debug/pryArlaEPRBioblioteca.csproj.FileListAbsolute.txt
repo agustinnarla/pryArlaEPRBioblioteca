@@ -1,0 +1,11 @@
+D:\Facultad\Programacion\GIT\Bibliobug\bin\Debug\pryArlaEPRBioblioteca.exe.config
+D:\Facultad\Programacion\GIT\Bibliobug\bin\Debug\pryArlaEPRBioblioteca.exe
+D:\Facultad\Programacion\GIT\Bibliobug\bin\Debug\pryArlaEPRBioblioteca.pdb
+D:\Facultad\Programacion\GIT\Bibliobug\obj\Debug\pryArlaEPRBioblioteca.csproj.AssemblyReference.cache
+D:\Facultad\Programacion\GIT\Bibliobug\obj\Debug\pryArlaEPRBioblioteca.csproj.SuggestedBindingRedirects.cache
+D:\Facultad\Programacion\GIT\Bibliobug\obj\Debug\pryArlaEPRBioblioteca.frmBiblioteca.resources
+D:\Facultad\Programacion\GIT\Bibliobug\obj\Debug\pryArlaEPRBioblioteca.Properties.Resources.resources
+D:\Facultad\Programacion\GIT\Bibliobug\obj\Debug\pryArlaEPRBioblioteca.csproj.GenerateResource.cache
+D:\Facultad\Programacion\GIT\Bibliobug\obj\Debug\pryArlaEPRBioblioteca.csproj.CoreCompileInputs.cache
+D:\Facultad\Programacion\GIT\Bibliobug\obj\Debug\pryArlaEPRBioblioteca.exe
+D:\Facultad\Programacion\GIT\Bibliobug\obj\Debug\pryArlaEPRBioblioteca.pdb
