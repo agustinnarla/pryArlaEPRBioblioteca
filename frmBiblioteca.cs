@@ -126,7 +126,6 @@ namespace pryArlaEPRBioblioteca
             //aumente 1 
             contador++;
 
-
             txtCodigo.Text = Convert.ToString(matLibros[contador, 0].Codigo);
             txtNombreLibro.Text = matLibros[contador, 1].Nombre_del_Libro;
             txtNombreEdit.Text = matLibros[contador, 2].Nombre_Editorial;

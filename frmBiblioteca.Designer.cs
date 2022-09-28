@@ -152,7 +152,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 204);
+            this.ClientSize = new System.Drawing.Size(322, 204);
             this.Controls.Add(this.txtNombreDistribuidor);
             this.Controls.Add(this.txtNombreEdit);
             this.Controls.Add(this.txtCodigoAutor);
@@ -167,6 +167,7 @@
             this.Controls.Add(this.cmdAtras);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmBiblioteca";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Biblioteca";
             this.Load += new System.EventHandler(this.frmBiblioteca_Load);
             this.ResumeLayout(false);
